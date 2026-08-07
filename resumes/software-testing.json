@@ -1,0 +1,190 @@
+{
+  "id": "software-testing",
+  "name": "软件测试 / 测试开发",
+  "jobTarget": "软件测试 / 测试开发工程师",
+  "keywords": [
+    "测试用例",
+    "接口测试",
+    "JUnit 5",
+    "Mockito",
+    "MockMvc",
+    "MySQL",
+    "Linux",
+    "Java"
+  ],
+  "note": "BOSS 定向：突出测试设计、接口验证、自动化测试、SQL/Linux 与能读代码定位问题的开发基础。",
+  "gap": "未虚构 Selenium、JMeter 和企业缺陷平台经验；这些已列入后续补强，而非写入简历。",
+  "data": {
+    "meta": {
+      "template": "classic-zh",
+      "themeColor": "#0f766e",
+      "fontSize": 13,
+      "lineHeight": 1.35,
+      "margin": "compact",
+      "darkMode": false,
+      "fontFamily": "sans-serif",
+      "spacingScale": 1,
+      "fitSectionGap": 0,
+      "fitItemGap": 0,
+      "versionId": "software-testing",
+      "versionName": "软件测试 / 测试开发",
+      "targetKeywords": [
+        "测试用例",
+        "接口测试",
+        "JUnit 5",
+        "Mockito",
+        "MockMvc",
+        "MySQL",
+        "Linux",
+        "Java"
+      ]
+    },
+    "basicInfo": {
+      "name": "张三",
+      "phone": "13800000000",
+      "email": "zhangsan@example.com",
+      "jobTarget": "软件测试 / 测试开发工程师",
+      "website": "",
+      "birthDate": "2000年1月",
+      "hometown": "中国",
+      "gradSchool": "某大学",
+      "photo": ""
+    },
+    "sections": [
+      {
+        "id": "education",
+        "title": "教育经历",
+        "icon": "education",
+        "visible": true,
+        "order": 0,
+        "items": [
+          {
+            "id": "edu-1",
+            "fields": {
+              "school": "某大学",
+              "major": "软件工程",
+              "degree": "本科",
+              "startDate": "2022-09",
+              "endDate": "2026-06",
+              "gpa": "3.18",
+              "courses": "Java 程序设计、C++ 程序设计、数据库原理、数据结构、计算机网络原理、操作系统、计算机组成原理等"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "专业技能",
+        "icon": "skills",
+        "visible": true,
+        "order": 1,
+        "items": [
+          {
+            "id": "qa-s1",
+            "fields": {
+              "name": "测试设计",
+              "description": "能够根据需求和业务流程设计功能、场景、边界与异常用例，关注权限、状态流转、重复提交和数据一致性。"
+            }
+          },
+          {
+            "id": "qa-s2",
+            "fields": {
+              "name": "接口测试",
+              "description": "熟悉 HTTP/REST、状态码、JSON 与 JWT，能结合 Swagger/OpenAPI、浏览器网络请求和数据库记录验证接口。"
+            }
+          },
+          {
+            "id": "qa-s3",
+            "fields": {
+              "name": "自动化测试",
+              "description": "使用 JUnit 5、Mockito、MockMvc、Spring Boot Test 与 H2 编写单元和接口测试，工作区项目累计包含 30+ 个测试用例。"
+            }
+          },
+          {
+            "id": "qa-s4",
+            "fields": {
+              "name": "数据库与环境",
+              "description": "熟悉 MySQL 基础 SQL、表结构和事务；能够使用 Maven、Git、Linux 常用命令和日志进行环境与问题排查。"
+            }
+          },
+          {
+            "id": "qa-s5",
+            "fields": {
+              "name": "开发基础",
+              "description": "具备 Java、Spring Boot、MyBatis-Plus 基础，可阅读后端代码并围绕鉴权、状态机、Prompt 和 RAG 算法设计测试。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "experience",
+        "title": "工作经历",
+        "icon": "work",
+        "visible": false,
+        "order": 2,
+        "items": []
+      },
+      {
+        "id": "projects",
+        "title": "项目经历",
+        "icon": "project",
+        "visible": true,
+        "order": 3,
+        "items": [
+          {
+            "id": "external-ai-data-testing",
+            "fields": {
+              "name": "AI 数据分析平台接口与端到端自动化测试（个人项目）",
+              "role": "测试开发 / 接口与 UI 自动化",
+              "startDate": "2026-04",
+              "endDate": "2026-07",
+              "techStack": "Java、JUnit 5、Rest Assured、Playwright Java、Testcontainers、MySQL、Mockito、Allure",
+              "description": "项目简介：围绕数据源配置、权限、自然语言查询和报表任务设计接口、UI、集成和异常场景测试。\n使用 Rest Assured 覆盖登录、数据源、查询会话、任务状态和权限接口，校验状态码、JSON Schema、数据归属和错误响应结构。\n使用 Playwright Java 编写登录、创建数据源、发起查询、查看报表和失败重试的端到端用例，覆盖表单、列表、弹窗和异步状态变化。\n使用 Testcontainers 启动隔离 MySQL/Redis 依赖，通过 Mock 模型响应稳定 AI 测试结果，并对生成 SQL 执行只读、表名和危险语句断言。\n补充超时、无数据、模型不可用、非法参数、越权访问和重复提交用例，生成 Allure/Surefire 报告并整理可复现的问题定位路径。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "certificates",
+        "title": "证书荣誉",
+        "icon": "cert",
+        "visible": true,
+        "order": 4,
+        "items": [
+          {
+            "id": "cert-1",
+            "fields": {
+              "name": "软件设计师（中级）",
+              "issuer": "计算机技术与软件专业技术资格",
+              "date": "2024-11"
+            }
+          },
+          {
+            "id": "cert-2",
+            "fields": {
+              "name": "大学英语四级 CET-4",
+              "issuer": "具备英文技术文档基础阅读能力",
+              "date": "2023-06"
+            }
+          }
+        ]
+      },
+      {
+        "id": "awards",
+        "title": "竞赛与荣誉",
+        "icon": "award",
+        "visible": false,
+        "order": 5,
+        "items": []
+      },
+      {
+        "id": "summary",
+        "title": "自我评价",
+        "icon": "summary",
+        "visible": true,
+        "order": 6,
+        "content": "做事认真细致，具备较强的问题意识和逻辑分析能力，能够根据需求梳理场景、发现边界问题并推动闭环。遇到异常能够耐心复现、沟通和跟进验证。"
+      }
+    ]
+  }
+}

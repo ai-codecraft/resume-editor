@@ -1,0 +1,8 @@
+# Generated exports and local preview/cache files
+output/
+tmp/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp

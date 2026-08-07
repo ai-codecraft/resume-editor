@@ -1,0 +1,110 @@
+[
+  {
+    "id": "java-backend",
+    "name": "Java 后端",
+    "jobTarget": "Java 后端开发工程师",
+    "keywords": [
+      "Java",
+      "Spring Boot",
+      "Spring Security",
+      "MyBatis-Plus",
+      "MySQL",
+      "Redis",
+      "RabbitMQ",
+      "JWT",
+      "RESTful API",
+      "事务",
+      "状态机",
+      "幂等",
+      "JUnit 5",
+      "Docker Compose"
+    ],
+    "note": "BOSS 定向：以票务选座为主线，突出并发锁座、事务、缓存、状态机、幂等、延迟消息与测试。",
+    "gap": "票务项目须在完成场次、锁座、延迟释放等核心链路后再用于投递；不虚构高并发规模、线上指标或生产环境经历。"
+  },
+  {
+    "id": "frontend",
+    "name": "Web 前端",
+    "jobTarget": "Web 前端开发工程师",
+    "keywords": [
+      "JavaScript",
+      "TypeScript",
+      "Vue 3",
+      "Pinia",
+      "Vue Router",
+      "Axios",
+      "Element Plus",
+      "Vite"
+    ],
+    "note": "BOSS 定向：突出 Vue 3、JavaScript/TypeScript、组件化、状态管理、接口联调和实际页面交付。",
+    "gap": "未虚构 React 与大型商业项目经验；简历重点放在 Vue 3、原生 JavaScript 和 AI 流式交互。"
+  },
+  {
+    "id": "software-testing",
+    "name": "软件测试 / 测试开发",
+    "jobTarget": "软件测试 / 测试开发工程师",
+    "keywords": [
+      "测试用例",
+      "接口测试",
+      "JUnit 5",
+      "Mockito",
+      "MockMvc",
+      "MySQL",
+      "Linux",
+      "Java"
+    ],
+    "note": "BOSS 定向：突出测试设计、接口验证、自动化测试、SQL/Linux 与能读代码定位问题的开发基础。",
+    "gap": "未虚构 Selenium、JMeter 和企业缺陷平台经验；这些已列入后续补强，而非写入简历。"
+  },
+  {
+    "id": "ai-application",
+    "name": "AI 应用 / Agent 方向",
+    "jobTarget": "AI 应用开发工程师（Agent / RAG 方向）",
+    "keywords": [
+      "LLM API",
+      "RAG",
+      "Prompt",
+      "Embedding",
+      "混合检索",
+      "结构化输出",
+      "SSE",
+      "Agent"
+    ],
+    "note": "BOSS 定向：定位应用开发而非算法岗，突出模型接入、RAG、Prompt、流式交互、降级与业务落地。",
+    "gap": "该版本包含一个作品集型 Agent 项目包装；投递前需让代码、演示和面试讲解与简历保持一致。"
+  },
+  {
+    "id": "fullstack",
+    "name": "Java 全栈",
+    "jobTarget": "Java 全栈开发工程师",
+    "keywords": [
+      "Java",
+      "Spring Boot",
+      "Vue 3",
+      "TypeScript",
+      "MySQL",
+      "JWT",
+      "Axios",
+      "前后端联调"
+    ],
+    "note": "BOSS 定向：突出 Java + Vue 的完整交付能力，适配中小团队业务系统和 AI 应用全栈岗位。",
+    "gap": "避免把自己包装成多年全栈；重点证明能完成一个业务模块从页面、接口到数据库的闭环。"
+  },
+  {
+    "id": "implementation-support",
+    "name": "软件实施 / 技术支持",
+    "jobTarget": "软件实施 / 技术支持工程师",
+    "keywords": [
+      "部署实施",
+      "技术支持",
+      "MySQL",
+      "Linux",
+      "接口联调",
+      "问题排查",
+      "文档",
+      "客户沟通"
+    ],
+    "note": "BOSS 定向：突出安装部署、数据库、接口排查、文档和沟通能力，作为扩大投递面的备用版本。",
+    "gap": "无企业客户现场经历，不虚构售前或驻场经验；以项目部署、演示和故障定位能力为主。"
+  }
+]

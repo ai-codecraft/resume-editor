@@ -1,0 +1,190 @@
+{
+  "id": "frontend",
+  "name": "Web 前端",
+  "jobTarget": "Web 前端开发工程师",
+  "keywords": [
+    "JavaScript",
+    "TypeScript",
+    "Vue 3",
+    "Pinia",
+    "Vue Router",
+    "Axios",
+    "Element Plus",
+    "Vite"
+  ],
+  "note": "BOSS 定向：突出 Vue 3、JavaScript/TypeScript、组件化、状态管理、接口联调和实际页面交付。",
+  "gap": "未虚构 React 与大型商业项目经验；简历重点放在 Vue 3、原生 JavaScript 和 AI 流式交互。",
+  "data": {
+    "meta": {
+      "template": "classic-zh",
+      "themeColor": "#2563eb",
+      "fontSize": 13,
+      "lineHeight": 1.35,
+      "margin": "compact",
+      "darkMode": false,
+      "fontFamily": "sans-serif",
+      "spacingScale": 1,
+      "fitSectionGap": 0,
+      "fitItemGap": 0,
+      "versionId": "frontend",
+      "versionName": "Web 前端",
+      "targetKeywords": [
+        "JavaScript",
+        "TypeScript",
+        "Vue 3",
+        "Pinia",
+        "Vue Router",
+        "Axios",
+        "Element Plus",
+        "Vite"
+      ]
+    },
+    "basicInfo": {
+      "name": "张三",
+      "phone": "13800000000",
+      "email": "zhangsan@example.com",
+      "jobTarget": "Web 前端开发工程师",
+      "website": "",
+      "birthDate": "2000年1月",
+      "hometown": "中国",
+      "gradSchool": "某大学",
+      "photo": ""
+    },
+    "sections": [
+      {
+        "id": "education",
+        "title": "教育经历",
+        "icon": "education",
+        "visible": true,
+        "order": 0,
+        "items": [
+          {
+            "id": "edu-1",
+            "fields": {
+              "school": "某大学",
+              "major": "软件工程",
+              "degree": "本科",
+              "startDate": "2022-09",
+              "endDate": "2026-06",
+              "gpa": "3.18",
+              "courses": "Java 程序设计、C++ 程序设计、数据库原理、数据结构、计算机网络原理、操作系统、计算机组成原理等"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "专业技能",
+        "icon": "skills",
+        "visible": true,
+        "order": 1,
+        "items": [
+          {
+            "id": "fe-s1",
+            "fields": {
+              "name": "前端基础",
+              "description": "熟悉 HTML5、CSS3、JavaScript ES6+、DOM 与事件机制，能够完成响应式布局、表单交互和浏览器本地存储。"
+            }
+          },
+          {
+            "id": "fe-s2",
+            "fields": {
+              "name": "Vue 技术栈",
+              "description": "熟悉 Vue 3 Composition API、TypeScript、Pinia、Vue Router、Element Plus 与 Vite，具备组件化页面开发经验。"
+            }
+          },
+          {
+            "id": "fe-s3",
+            "fields": {
+              "name": "接口与状态",
+              "description": "能够使用 Axios 封装请求、拦截器和异常处理，完成 JWT 登录态、角色路由、分页查询及前后端数据回显。"
+            }
+          },
+          {
+            "id": "fe-s4",
+            "fields": {
+              "name": "AI 交互",
+              "description": "实践 fetch-event-source 接收 SSE 流式内容，使用 Marked 与 DOMPurify 完成 Markdown 渲染和内容清理。"
+            }
+          },
+          {
+            "id": "fe-s5",
+            "fields": {
+              "name": "工程与可视化",
+              "description": "熟悉 Git、npm、模块化组织、ECharts 数据可视化，以及加载、空状态、错误提示等通用交互。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "experience",
+        "title": "工作经历",
+        "icon": "work",
+        "visible": false,
+        "order": 2,
+        "items": []
+      },
+      {
+        "id": "projects",
+        "title": "项目经历",
+        "icon": "project",
+        "visible": true,
+        "order": 3,
+        "items": [
+          {
+            "id": "external-ai-data-frontend",
+            "fields": {
+              "name": "AI 数据分析运营后台（个人项目）",
+              "role": "前端开发 / 数据工作台与可视化",
+              "startDate": "2026-04",
+              "endDate": "2026-07",
+              "techStack": "Vue 3、Vite、TypeScript、Element Plus、Pinia、Vue Router、Axios、ECharts、SSE",
+              "description": "项目简介：面向企业数据分析场景，提供数据源配置、自然语言查询、报表任务和指标看板等后台页面。\n基于 Vue 3 Composition API、TypeScript、Pinia 和 Vue Router 拆分登录、数据源、查询工作台、任务历史和报表详情等页面。\n封装 Axios 请求、JWT 失效处理和统一错误提示，完成表单校验、分页查询、权限路由、空状态和加载态等通用交互。\n使用 SSE 接收查询计划、SQL 校验、执行进度和结果整理事件，按阶段更新任务状态并支持失败重试和结果回溯。\n使用 Element Plus 与 ECharts 实现数据源表单、指标卡片、趋势图和报表展示，优化复杂表格、筛选条件和响应式布局。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "certificates",
+        "title": "证书荣誉",
+        "icon": "cert",
+        "visible": true,
+        "order": 4,
+        "items": [
+          {
+            "id": "cert-1",
+            "fields": {
+              "name": "软件设计师（中级）",
+              "issuer": "计算机技术与软件专业技术资格",
+              "date": "2024-11"
+            }
+          },
+          {
+            "id": "cert-2",
+            "fields": {
+              "name": "大学英语四级 CET-4",
+              "issuer": "具备英文技术文档基础阅读能力",
+              "date": "2023-06"
+            }
+          }
+        ]
+      },
+      {
+        "id": "awards",
+        "title": "竞赛与荣誉",
+        "icon": "award",
+        "visible": false,
+        "order": 5,
+        "items": []
+      },
+      {
+        "id": "summary",
+        "title": "自我评价",
+        "icon": "summary",
+        "visible": true,
+        "order": 6,
+        "content": "学习能力与抗压能力较强，具备良好的逻辑思维和问题分析能力，能够较快理解需求并关注页面细节和使用体验。做事认真负责，遇到问题能够主动沟通、定位并推进解决。"
+      }
+    ]
+  }
+}

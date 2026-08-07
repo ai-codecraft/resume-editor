@@ -1,0 +1,236 @@
+{
+  "id": "java-backend",
+  "name": "Java 后端",
+  "jobTarget": "Java 后端开发工程师",
+  "keywords": [
+    "Java",
+    "Spring Boot",
+    "Spring Security",
+    "MyBatis-Plus",
+    "MySQL",
+    "Redis",
+    "RabbitMQ",
+    "JWT",
+    "RESTful API",
+    "事务",
+    "状态机",
+    "幂等",
+    "JUnit 5",
+    "Docker Compose"
+  ],
+  "note": "BOSS 定向：以票务选座为主线，突出并发锁座、事务、缓存、状态机、幂等、延迟消息与测试。",
+  "gap": "票务项目须在完成场次、锁座、延迟释放等核心链路后再用于投递；不虚构高并发规模、线上指标或生产环境经历。",
+  "data": {
+    "meta": {
+      "template": "classic-zh",
+      "themeColor": "#0f4c81",
+      "fontSize": 12.5,
+      "lineHeight": 1.27,
+      "margin": "compact",
+      "darkMode": false,
+      "fontFamily": "sans-serif",
+      "spacingScale": 0.55,
+      "fitSectionGap": 0,
+      "fitItemGap": 0,
+      "versionId": "java-backend",
+      "versionName": "Java 后端",
+      "targetKeywords": [
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "MyBatis-Plus",
+        "MySQL",
+        "Redis",
+        "RabbitMQ",
+        "JWT",
+        "RESTful API",
+        "事务",
+        "状态机",
+        "幂等",
+        "JUnit 5",
+        "Docker Compose"
+      ]
+    },
+    "basicInfo": {
+      "name": "张三",
+      "phone": "13800000000",
+      "email": "zhangsan@example.com",
+      "jobTarget": "Java 后端开发工程师",
+      "website": "",
+      "birthDate": "2000年1月",
+      "hometown": "中国",
+      "gradSchool": "某大学",
+      "photo": ""
+    },
+    "sections": [
+      {
+        "id": "education",
+        "title": "教育经历",
+        "icon": "education",
+        "visible": true,
+        "order": 0,
+        "items": [
+          {
+            "id": "edu-1",
+            "fields": {
+              "school": "某大学",
+              "major": "软件工程",
+              "degree": "本科",
+              "startDate": "2022-09",
+              "endDate": "2026-06",
+              "gpa": "3.18",
+              "courses": "Java 程序设计、C++ 程序设计、数据库原理、数据结构、计算机网络原理、操作系统、计算机组成原理等"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "专业技能",
+        "icon": "skills",
+        "visible": true,
+        "order": 1,
+        "items": [
+          {
+            "id": "java-s1",
+            "fields": {
+              "name": "Java 基础",
+              "description": "熟悉面向对象、泛型及常用集合框架，理解 HashMap 底层结构与扩容机制、ArrayList 扩容及 equals/hashCode 使用规范。"
+            }
+          },
+          {
+            "id": "java-s2",
+            "fields": {
+              "name": "Java 并发",
+              "description": "了解线程池核心参数与任务执行流程，理解 synchronized、volatile、ReentrantLock 的基本原理与适用场景。"
+            }
+          },
+          {
+            "id": "java-s3",
+            "fields": {
+              "name": "JVM",
+              "description": "了解 JVM 内存区域、类加载机制与双亲委派模型，了解常见垃圾回收算法及 G1 收集器基本特点。"
+            }
+          },
+          {
+            "id": "java-s4",
+            "fields": {
+              "name": "MySQL",
+              "description": "熟悉表结构设计、事务和索引优化，理解 InnoDB B+树索引、联合索引与最左前缀、事务隔离级别及 MVCC，能够使用 EXPLAIN 分析 SQL 执行计划。"
+            }
+          },
+          {
+            "id": "java-s5",
+            "fields": {
+              "name": "Redis",
+              "description": "熟悉常用数据结构、过期策略和内存淘汰机制，能够使用 Redis 实现业务缓存与访问频控，了解缓存穿透、击穿及缓存一致性的常见处理方案。"
+            }
+          },
+          {
+            "id": "java-s6",
+            "fields": {
+              "name": "Spring 生态",
+              "description": "熟悉 Spring Boot、Spring MVC、Spring Security 和 MyBatis-Plus，能够开发包含鉴权、参数校验、异常处理和事务控制的 RESTful 服务，了解 IoC、AOP 和自动装配原理。"
+            }
+          },
+          {
+            "id": "java-s7",
+            "fields": {
+              "name": "RabbitMQ",
+              "description": "熟悉交换机、手动 ACK、TTL 与死信队列，能够实现延迟消息，并通过业务唯一键和状态校验处理重复消费。"
+            }
+          },
+          {
+            "id": "java-s8",
+            "fields": {
+              "name": "工程实践",
+              "description": "能够使用 Maven、Git、JUnit 5、Mockito、MockMvc 和 Docker Compose 完成本地开发、接口测试与环境联调，熟悉 Linux 常用命令。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "experience",
+        "title": "实习经历",
+        "icon": "work",
+        "visible": true,
+        "order": 2,
+        "items": [
+          {
+            "id": "java-contract-collection-internship",
+            "fields": {
+              "company": "湘南湘西高新软件园",
+              "position": "Java 后端开发｜客户合同与回款管理系统",
+              "startDate": "2025-07",
+              "endDate": "2025-09",
+              "techStack": "Spring Boot、MyBatis-Plus、MySQL、Swagger",
+              "summary": "",
+              "description": "参与面向销售、商务及财务场景的客户合同与回款管理系统开发，重点负责回款计划、到账登记模块的后端接口、数据校验及前后端联调。\n根据合同金额、回款比例和约定日期生成分期回款计划，在事务内完成期次生成与金额校验，并通过“合同 ID＋期次”唯一约束避免重复生成。\n实现分次到账登记与累计实收金额计算，维护待回款、部分回款和已结清状态，拦截作废合同、已结清计划及超额回款等异常操作，并记录状态变化。\n针对负责人、回款状态和到期日期等组合查询设计联合索引，支持临期及逾期计划筛选；完成客户、合同批量导入、逐行校验和错误信息反馈。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "projects",
+        "title": "项目经历",
+        "icon": "project",
+        "visible": true,
+        "order": 3,
+        "items": [
+          {
+            "id": "java-cinema-ticketing",
+            "fields": {
+              "name": "影院票务与选座系统",
+              "role": "后端开发",
+              "startDate": "2026-03",
+              "endDate": "2026-07",
+              "techStack": "Java 17、Spring Boot 3、Spring Security、JWT、MyBatis-Plus、MySQL、Redis、RabbitMQ、JUnit 5、MockMvc、Docker Compose",
+              "description": "设计影厅模板、场次座位快照、票务订单及状态日志等核心模型，实现排片、座位查询、锁座、支付确认、超时取消和退票流程。\n针对多人并发选择同一座位的问题，通过数据库条件更新完成座位“空闲→锁定”的原子流转，并以订单座位唯一约束作为一致性兜底，避免重复售票。\n基于 RabbitMQ 延迟消息释放超时未支付订单，使用状态条件更新与幂等消费处理支付回调和超时消息并发到达的竞态，避免已支付订单被错误取消。\n使用 Redis 缓存场次座位图，座位状态变更后按事务提交结果失效缓存，并通过限购规则限制单用户单场次锁座数量。\n使用 JUnit 5、MockMvc 编写并发锁座、重复回调、超时释放和非法状态流转测试，通过 Docker Compose 完成 MySQL、Redis、RabbitMQ 本地联调。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "certificates",
+        "title": "证书荣誉",
+        "icon": "cert",
+        "visible": true,
+        "order": 4,
+        "items": [
+          {
+            "id": "cert-1",
+            "fields": {
+              "name": "软件设计师（中级）",
+              "issuer": "计算机技术与软件专业技术资格",
+              "date": "2024-11"
+            }
+          },
+          {
+            "id": "cert-2",
+            "fields": {
+              "name": "大学英语四级 CET-4",
+              "issuer": "具备英文技术文档基础阅读能力",
+              "date": "2023-06"
+            }
+          }
+        ]
+      },
+      {
+        "id": "awards",
+        "title": "竞赛与荣誉",
+        "icon": "award",
+        "visible": false,
+        "order": 5,
+        "items": []
+      },
+      {
+        "id": "summary",
+        "title": "自我评价",
+        "icon": "summary",
+        "visible": false,
+        "order": 6,
+        "content": "学习能力与抗压能力较强，具备良好的逻辑思维和问题分析能力，能够较快理解业务需求并拆解为可执行的任务。做事认真负责，遇到问题能够主动沟通、定位并推进解决，愿意在项目实践中持续提升自身能力。"
+      }
+    ]
+  }
+}

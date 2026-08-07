@@ -1,0 +1,190 @@
+{
+  "id": "implementation-support",
+  "name": "软件实施 / 技术支持",
+  "jobTarget": "软件实施 / 技术支持工程师",
+  "keywords": [
+    "部署实施",
+    "技术支持",
+    "MySQL",
+    "Linux",
+    "接口联调",
+    "问题排查",
+    "文档",
+    "客户沟通"
+  ],
+  "note": "BOSS 定向：突出安装部署、数据库、接口排查、文档和沟通能力，作为扩大投递面的备用版本。",
+  "gap": "无企业客户现场经历，不虚构售前或驻场经验；以项目部署、演示和故障定位能力为主。",
+  "data": {
+    "meta": {
+      "template": "classic-zh",
+      "themeColor": "#b45309",
+      "fontSize": 13,
+      "lineHeight": 1.35,
+      "margin": "compact",
+      "darkMode": false,
+      "fontFamily": "sans-serif",
+      "spacingScale": 1,
+      "fitSectionGap": 0,
+      "fitItemGap": 0,
+      "versionId": "implementation-support",
+      "versionName": "软件实施 / 技术支持",
+      "targetKeywords": [
+        "部署实施",
+        "技术支持",
+        "MySQL",
+        "Linux",
+        "接口联调",
+        "问题排查",
+        "文档",
+        "客户沟通"
+      ]
+    },
+    "basicInfo": {
+      "name": "张三",
+      "phone": "13800000000",
+      "email": "zhangsan@example.com",
+      "jobTarget": "软件实施 / 技术支持工程师",
+      "website": "",
+      "birthDate": "2000年1月",
+      "hometown": "中国",
+      "gradSchool": "某大学",
+      "photo": ""
+    },
+    "sections": [
+      {
+        "id": "education",
+        "title": "教育经历",
+        "icon": "education",
+        "visible": true,
+        "order": 0,
+        "items": [
+          {
+            "id": "edu-1",
+            "fields": {
+              "school": "某大学",
+              "major": "软件工程",
+              "degree": "本科",
+              "startDate": "2022-09",
+              "endDate": "2026-06",
+              "gpa": "3.18",
+              "courses": "Java 程序设计、C++ 程序设计、数据库原理、数据结构、计算机网络原理、操作系统、计算机组成原理等"
+            }
+          }
+        ]
+      },
+      {
+        "id": "skills",
+        "title": "专业技能",
+        "icon": "skills",
+        "visible": true,
+        "order": 1,
+        "items": [
+          {
+            "id": "is-s1",
+            "fields": {
+              "name": "环境部署",
+              "description": "能够配置 Java、Maven、Node.js、npm 与 MySQL 环境，阅读 application.yml、环境变量和启动日志。"
+            }
+          },
+          {
+            "id": "is-s2",
+            "fields": {
+              "name": "数据库与接口",
+              "description": "熟悉 MySQL 基础 SQL、初始化脚本和数据核对；能够使用 Swagger/OpenAPI 与浏览器网络面板验证接口。"
+            }
+          },
+          {
+            "id": "is-s3",
+            "fields": {
+              "name": "问题排查",
+              "description": "能够从配置、网络请求、鉴权、日志、数据库和外部 API 多层定位启动失败、接口异常与数据不一致。"
+            }
+          },
+          {
+            "id": "is-s4",
+            "fields": {
+              "name": "文档与交付",
+              "description": "具备 README、接口文档、数据库文档、演示清单和问题处理步骤编写经验，能清晰说明系统操作流程。"
+            }
+          },
+          {
+            "id": "is-s5",
+            "fields": {
+              "name": "开发基础",
+              "description": "掌握 Java、Spring Boot、Vue 3 和 Git 基础，可与研发沟通问题复现条件、影响范围和修复验证结果。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "experience",
+        "title": "工作经历",
+        "icon": "work",
+        "visible": false,
+        "order": 2,
+        "items": []
+      },
+      {
+        "id": "projects",
+        "title": "项目经历",
+        "icon": "project",
+        "visible": true,
+        "order": 3,
+        "items": [
+          {
+            "id": "external-multitenant-support",
+            "fields": {
+              "name": "多租户业务管理平台部署实施（个人项目）",
+              "role": "软件实施 / 环境部署与问题排查",
+              "startDate": "2026-04",
+              "endDate": "2026-07",
+              "techStack": "Java 17、Spring Boot、Vue 3、MySQL、Redis、Docker Compose、Nginx、Linux、Swagger/OpenAPI",
+              "description": "项目简介：面向多租户业务管理系统，整理从环境准备、数据库初始化、服务启动到接口联调和问题定位的可复现交付流程。\n编写 Docker Compose、环境变量、MySQL 初始化、Redis 配置和 Nginx 反向代理说明，完成前后端服务启动与访问验证。\n使用 Swagger/OpenAPI、浏览器网络面板和数据库记录核对接口参数、鉴权、跨域、数据权限和返回结果，定位联调问题。\n从启动日志、配置文件、网络端口、SQL、缓存和对象存储等层面排查启动失败、接口异常、数据不一致和文件上传问题。\n整理部署清单、演示数据、常见故障处理步骤和版本回滚说明，能够将技术问题转化为客户或团队可执行的操作文档。"
+            }
+          }
+        ]
+      },
+      {
+        "id": "certificates",
+        "title": "证书荣誉",
+        "icon": "cert",
+        "visible": true,
+        "order": 4,
+        "items": [
+          {
+            "id": "cert-1",
+            "fields": {
+              "name": "软件设计师（中级）",
+              "issuer": "计算机技术与软件专业技术资格",
+              "date": "2024-11"
+            }
+          },
+          {
+            "id": "cert-2",
+            "fields": {
+              "name": "大学英语四级 CET-4",
+              "issuer": "具备英文技术文档基础阅读能力",
+              "date": "2023-06"
+            }
+          }
+        ]
+      },
+      {
+        "id": "awards",
+        "title": "竞赛与荣誉",
+        "icon": "award",
+        "visible": false,
+        "order": 5,
+        "items": []
+      },
+      {
+        "id": "summary",
+        "title": "自我评价",
+        "icon": "summary",
+        "visible": true,
+        "order": 6,
+        "content": "耐心细致，责任心较强，能够从现象出发梳理问题、记录过程并逐步推进解决。愿意主动沟通和沉淀文档，帮助团队减少重复问题和沟通成本。"
+      }
+    ]
+  }
+}
